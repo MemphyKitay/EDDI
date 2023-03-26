@@ -13,7 +13,7 @@ name: "Github CodeQL Code Analysis"
 
 on:
   push:
-    branches: [ develop, beta, stable ]
+    branches: [ develop, beta, stable, '!l10n_develop' ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ develop ]
